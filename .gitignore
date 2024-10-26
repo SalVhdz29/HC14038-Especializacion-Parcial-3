@@ -1,0 +1,38 @@
+# Ignorar archivos y carpetas generadas por SSIS
+
+# Carpetas de build
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.mdb
+*.log
+*.ldb
+
+# Paquetes de SSIS generados
+*.dtproj.user
+*.dtproj.v12.suo
+*.dtproj.v11.suo
+*.dtproj.v10.suo
+*.manifest
+*.database
+
+# Carpetas de despliegue y logs
+*.deploymentmanifest
+*.log
+*.dtsx.user
+*.mdf
+*.ldf
+
+# Ignorar archivos de configuración de la base de datos
+*.database.sql
+*.dbmdl
+
+# Excluir carpeta fuentes y su contenido
+Fuentes/
+
+fuentes/
+
+.vs
